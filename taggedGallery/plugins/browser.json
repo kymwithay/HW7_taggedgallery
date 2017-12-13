@@ -15,6 +15,12 @@
     },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.kymberleehill.taggedGallery"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.kymberleehill.taggedGallery"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.kymberleehill.taggedGallery"
     }
   },
   "dependent_plugins": {}

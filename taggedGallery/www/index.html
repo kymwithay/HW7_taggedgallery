@@ -35,27 +35,27 @@
    </ul>
  </script>
 
- <script id="name-tpl" type="text/template">
+ <script id="download-tpl" type="text/template">
     <header class="bar bar-nav">
-      <h1 class="title">Find by Name</h1>
+      <h1 class="title">Download</h1>
     </header>
     <div class="content">
-      <form class="input-group">
-        <input id="firstName" type="text" placeholder="First Name">
-        <input id="lastName" type="text" placeholder="Last Name">
+      <form class="dwn-input-group">
+        <input id="urlbox" type="text" placeholder="Enter image URL here">
+        <input id="tagbox" type="text" placeholder="Enter one or more tags here">
+        <a href="#submit" class="btn btn-primary">Submit</a>
       </form>
       <div class="results"></div>
     </div>
   </script>
 
-  <script id="dept-tpl" type="text/template">
+  <script id="search-tpl" type="text/template">
     <header class="bar bar-nav">
-      <h1 class="title">Find by Department/Title</h1>
+      <h1 class="title">Search for image tags</h1>
     </header>
     <div class="content">
-      <form class="input-group">
-        <input id="dept" type="text" placeholder="Department">
-        <input id="title" type="text" placeholder="Title">
+      <form class="search-input-group">
+        <input id="string" type="text" placeholder="Enter tags">
       </form>
       <div class="results"></div>
     </div>
@@ -128,9 +128,9 @@
   <script src="lib/fastclick.js"></script>
   <script src="js/EmployeeListView.js"></script>
   <script src="js/HomeView.js"></script>
-  <script src="js/EmployeeView.js"></script>
-  <script src="js/FindByNameView.js"></script>
-  <script src="js/FindByDeptView.js"></script>
+  <script src="js/ImageView.js"></script>
+  <script src="js/SearchView.js"></script>
+  <script src="js/DownloadView.js"></script>
   <script src="js/app.js"></script>
   <script src="cordova.js"></script>
 
